@@ -1,4 +1,4 @@
-package linklist;
+package linkedlist;
 
 public class NthNodeDelete {
 
@@ -12,7 +12,7 @@ public class NthNodeDelete {
 
 	}
 
-	static class LinkList {
+	static class LinkedList {
 		public Node head;
 
 		public void add(Integer data) {
@@ -86,7 +86,7 @@ public class NthNodeDelete {
 	}
 
 	public static void main(String[] args) {
-		LinkList list = new LinkList();
+		LinkedList list = new LinkedList();
 		list.add(1);
 		list.add(2);
 		list.add(3);

@@ -1,4 +1,4 @@
-package linklist;
+package linkedlist;
 
 public class ChunkedReverse {
 
@@ -11,7 +11,7 @@ public class ChunkedReverse {
 		}
 	}
 
-	static class LinkList {
+	static class LinkedList {
 		Node head;
 
 		public void add(Integer data) {
@@ -71,7 +71,7 @@ public class ChunkedReverse {
 	}
 
 	public static void main(String[] args) {
-		LinkList list = new LinkList();
+		LinkedList list = new LinkedList();
 		list.add(1);
 		list.add(2);
 		list.add(3);
